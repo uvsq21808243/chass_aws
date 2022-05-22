@@ -21,7 +21,7 @@ export default function App() {
     }
 
     return (
-        <Router>
+        <Router basename="/chass_aws">
             <Routes>
                 <Route exact path="/">
                   <Route exact path='/' element={<Home/>}/>
